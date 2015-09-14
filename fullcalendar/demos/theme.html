@@ -27,13 +27,10 @@
 					right: 'month,agendaWeek,agendaDay'
 				},
 
-				// Wanda's Shared Calendar
-				// THIS NEEDS TO BE https AND NOT JUST http!
 				events: 'https://www.google.com/calendar/feeds/stuyhack%40gmail.com/public/basic',
 
 				eventClick: function(event) {
 
-					// opens events in a popup window
 					window.open(event.url, 'gcalevent', 'width=400,height=400');
 					return false;
 				},
