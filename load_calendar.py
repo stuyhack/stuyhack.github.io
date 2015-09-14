@@ -1,10 +1,8 @@
-'''
-This is a script to load the 'calendar' section of the StuyHack website.
-This script is invoked by devploy.sh, which handles deploying the site.
+# This is a script to load the 'calendar' section of the StuyHack website.
+# This script is invoked by devploy.sh, which handles deploying the site.
 
-This script handles adding calendar events and generating the calendar.
-DO NOT EDIT THE EVENTS FILE (fullcalendar/demos/DEVPLOY_EVENTS) MANUALLY!
-'''
+# This script handles adding calendar events and generating the calendar.
+# DO NOT EDIT THE EVENTS FILE (fullcalendar/demos/DEVPLOY_EVENTS) MANUALLY!
 
 import os, sys
 import argparse
@@ -117,7 +115,7 @@ def main():
     parser.add_argument(
         "-a",
         "--add",
-        help="Opens an interactive prompt for add an event."
+        help="Opens an interactive prompt for add an event",
         action="store_true"
     )
     parser.add_argument(
