@@ -74,7 +74,7 @@ def assert_valid_time_length(start_date, end_date):
 def add_event(contents, start_date, end_date):
     assert_valid_time_length(start_date, end_date)
     tabulation = " " * 16
-    new_event = tabulation + "{\n"
+    new_event = tabulation + ",{\n"
     new_event += tabulation + "    title: "
     new_event += repr(contents) + ",\n" # Abuse repr() to generate to quotes
     new_event += tabulation + "    start: "
