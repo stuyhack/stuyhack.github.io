@@ -20,14 +20,12 @@
 
 			$('#calendar').fullCalendar({
 
+				googleCalendarApiKey: 'AIzaSyCsjQ7NqrXmfReRveWjY7MTQuLQ0nwWAcA',
 				theme: true,
-				header: {
-					left: 'prev,next today',
-					center: 'title',
-					right: 'month,agendaWeek,agendaDay'
-				},
 
-				events: 'https://www.google.com/calendar/feeds/stuyhack%40gmail.com/public/basic',
+				events: {
+					googleCalendarId: 'stuyhack@gmail.com'
+				},
 
 				eventClick: function(event) {
 
