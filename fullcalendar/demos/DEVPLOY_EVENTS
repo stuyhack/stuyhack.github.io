@@ -23,3 +23,23 @@
                     start: '2015-09-30',
                     end: '2015-09-30'
                 }
+                ,{
+                    title: 'Meeting - XSS and SQLi',
+                    start: '2015-10-07',
+                    end: '2015-10-07'
+                }
+                ,{
+                    title: 'Meeting',
+                    start: '2015-10-14',
+                    end: '2015-10-14'
+                }
+                ,{
+                    title: 'Talk by Kevin Chung on Cybersecurity in the Field',
+                    start: '2015-10-21',
+                    end: '2015-10-21'
+                }
+                ,{
+                    title: 'NO MEETING DUE TO COLLEGE APPS',
+                    start: '2015-10-28',
+                    end: '2015-10-28'
+                }
